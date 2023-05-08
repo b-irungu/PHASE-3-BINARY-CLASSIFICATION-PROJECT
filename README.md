@@ -21,3 +21,25 @@ The project used the CRIPSM-DM data science process to analyse and create a mode
 * Logistic Regression
 * Decision Trees
 * Random Forest
+
+**FINDINGS**
+
+The findings of the various classifiers used in this project are as follows:
+
+**KNN findings**
+
+This classifiers had the lowest perfomance(based on the recall evaluation), as the recall score ws 13.91%. with this score the model had a high rate of producing false negative churns which would result to mislead decision making if the same was adopted. 
+
+**Logistic Regression findings**
+
+The recall score for the clssifier was 28% which also indicated that the clasifier erfomed poorly on correctly predicting customer churn, thus the classifier could not be adopted
+
+**Decision Trees findings**
+
+With an accuracy of 0.826, precision of 0.826, recall of 0.826, and F1-score of 0.826, the decision tree classifier trained using highly correlated variables with the target variable performed quite well.
+
+**Random Forest Findings**
+
+**CONCLUSION**
+
+**BUSINESS RECOMMENDATION**
