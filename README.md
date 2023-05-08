@@ -2,7 +2,17 @@
 
 # SYRIATEL COMPANY CUSTOMER CHURN ANALYSIS PROJECT
 
-USING BINARY CLASSIFICATION TO BUILD A MODEL THAT ACCURATELY PREDICTS CUSTOMER CHURN TO HELP SYRIATEL COMPANY IDENTIFY THE FACTORS CONTRIBUTING TO THE CHURN AND TAKE PROACTIVE ACTIONS TOWARDS RETAINING THEIR CUSTOMERS
+**USING BINARY CLASSIFICATION TO BUILD A MODEL THAT ACCURATELY PREDICTS CUSTOMER CHURN TO HELP SYRIATEL COMPANY IDENTIFY THE FACTORS CONTRIBUTING TO THE CHURN AND TAKE PROACTIVE ACTIONS TOWARDS RETAINING THEIR CUSTOMERS**
+
+**REPOSITORY OUTLINE**
+
+This repository contains the follwing
+* A jupyter notebook 
+* A non technical presentation.
+* A CRISP-DM report
+* A README file
+* SyriaTel Customer churn data
+* SyriaTel company logo
 
 **OVERVIEW**
 
@@ -18,7 +28,7 @@ This project uses the SyriaTel Customer churn data set which is retrieved from K
 
 **METHOD**
 
-The project used the CRIPSM-DM data science process to analyse and create a model best for the churn analysis. the projects used the following Binary classifiers
+The project used the CRISP-DM data science process to analyse and create a model best for the churn analysis. All the data science steps are described in the CRISP-DM Report:(**insert link**). The projects used the following Binary classifiers
 * KNN(K-Nearest Neighbours)
 * Logistic Regression
 * Decision Trees
