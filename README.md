@@ -13,6 +13,7 @@ This repository contains the follwing
 * A README file
 * SyriaTel Customer churn data
 * SyriaTel company logo
+* churn distribution visual
 
 **OVERVIEW**
 
@@ -25,6 +26,16 @@ This project uses the SyriaTel Customer churn data set which is retrieved from K
 * It contains comprehensive information on various features of the telecommunication services provided by the company including account length, area code, phone number, international plan, voice mail plan, and various other features related to customer usage patterns.
 * The data set also contains the feature 'churn,' which indicates whether a customer has churned or not which will be used as the target variable making the dataset suitable for analyzing customer churn as it contains all the necessary information to develop a predictive model.
 * The data he dataset is large enough, with over 3,000 records, to support the development of a reliable and accurate predictive model. 
+
+**Target and predictor variables**
+
+The data has various feaatures where `churn` was the target variable feature while the rest were the predictor variable features. the predictor variable features include the `state`, `account length`, `area code`, `phone number`, `international plan`, `voice mail plan`,`number vmail messages`,`total day minutes`, `total day calls`, `total day charge`, `total eve minutes`, `total eve calls`, `total eve charge`,`total night minutes`,`total night calls`,`total night charge`,`total intl minutes`,`total intl calls`,`total intl charge`and `customer service calls`
+
+
+**Customer churn distribution**
+
+![churn distribution](https://github.com/b-irungu/PHASE-3-BINARY-CLASSIFICATION-PROJECT/assets/122228492/00deabcf-7814-4b1a-944d-b1404ecd51f4)
+
 
 **METHOD**
 
