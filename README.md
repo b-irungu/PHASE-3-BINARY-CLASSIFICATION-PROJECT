@@ -51,18 +51,45 @@ The findings of the various classifiers used in this project are as follows:
 
 **KNN findings**
 
-This classifiers had the lowest perfomance(based on the recall evaluation), as the recall score ws 13.91%. with this score the model had a high rate of producing false negative churns which would result to mislead decision making if the same was adopted. 
+This classifiers had the lowest perfomance(based on the recall evaluation), as the recall score ws 19.31%. with this score the model had a high rate of producing false negative churns which would result to mislead decision making if the same was adopted. 
+
+![knn confusion matrix](https://github.com/b-irungu/PHASE-3-BINARY-CLASSIFICATION-PROJECT/assets/122228492/e93e7800-3e82-4e0b-b926-ab35c586795b)
+
 
 **Logistic Regression findings**
 
-The recall score for the clssifier was 28% which also indicated that the clasifier erfomed poorly on correctly predicting customer churn, thus the classifier could not be adopted
+The recall score for the clssifier was 28% which also indicated that the clasifier perfomed poorly on correctly predicting customer churn, thus the classifier could not be adopted
+
+![logistic regresion confusion matrix](https://github.com/b-irungu/PHASE-3-BINARY-CLASSIFICATION-PROJECT/assets/122228492/145cad4d-956a-4075-871b-aaa331c6d87a)
+
 
 **Decision Trees findings**
 
-With an accuracy of 0.826, precision of 0.826, recall of 0.826, and F1-score of 0.826, the decision tree classifier trained using highly correlated variables with the target variable performed quite well.
+The model reported a high accuracy of 0.929 and a decent mix of precision and recall(83.54% and 65.34% respectively. 
+
+![decision tree confusion matrix](https://github.com/b-irungu/PHASE-3-BINARY-CLASSIFICATION-PROJECT/assets/122228492/04187f37-007c-4e93-b2c6-8ae053b72534)
 
 **Random Forest Findings**
 
+Random Forest was the best Model based on Recall Metric which was 75%. 7.4% of the predictions are False Negatives which means that the model will 7.4% of the time 
+predict that a customer will not churn yet the customer churns.
+
+![random forest confusion matrix](https://github.com/b-irungu/PHASE-3-BINARY-CLASSIFICATION-PROJECT/assets/122228492/78f5a5f7-48e7-406f-8aad-f89cfdb95663)
+
+
 **CONCLUSION**
 
+Based on the findings, the business conclusion can be drawn as follows:
+
+* Importance of Recall: In the context of predicting customer churn, the focus was placed on optimizing for Recall. By prioritizing Recall, the goal was to minimize the number of customers who are incorrectly classified as non-churners.
+* Best Model: Among the models explored, the Random Forest Classifier performed the best since was able to correctly identify 75% of the customers who were likely to churn.
+* Despite the success of the Random Forest Classifier, it still had a False Negatives rate of 7.4%. This means that approximately 7.4% of the time, the model predicted that a customer would not churn when they actually did churn. This level of False Negatives could have a significant impact on the business.
+* Predicting customer churn is an ongoing process, and it is important to continuously refine and improve the model. Regularly monitoring the model's performance, collecting new data, and incorporating feedback from business stakeholders can lead to better predictions and more accurate identification of customers who are at risk of churning.
+
 **BUSINESS RECOMMENDATION**
+
+Determine the unique needs of the following customers and meet them; 
+* Heavy daytime callers. Come up with tariff incentives for them 
+* Customers with international plans. Come up with unique retention plans 
+* Customers who frequently call customer service. Assist customers proactively to reduce the need to call.
+
