@@ -67,14 +67,16 @@ The recall score for the clssifier was 28% which also indicated that the clasifi
 
 The model reported a high accuracy of 0.929 and the highest recall score of 78%. with the highest recall and accuracy, the model was adopted and business recomdations and conclusions drawn from it.        
 
-![decision tree confusion matrix](https://github.com/b-irungu/PHASE-3-BINARY-CLASSIFICATION-PROJECT/assets/122228492/04187f37-007c-4e93-b2c6-8ae053b72534)
+![decision tree confusion matrix](https://github.com/b-irungu/PHASE-3-BINARY-CLASSIFICATION-PROJECT/assets/122228492/dcc4c3b1-98f1-44ae-bf42-1e24b0734ade)
+
 
 **Random Forest Findings**
 
 Random Forest had a Recall Metric of 23%. 23% of the predictions are False Negatives which means that the model will 23% of the time 
 predict that a customer will not churn yet the customer churns.
 
-![random forest confusion matrix](https://github.com/b-irungu/PHASE-3-BINARY-CLASSIFICATION-PROJECT/assets/122228492/78f5a5f7-48e7-406f-8aad-f89cfdb95663)
+![random forest confusion matrix](https://github.com/b-irungu/PHASE-3-BINARY-CLASSIFICATION-PROJECT/assets/122228492/080e2852-66b0-48cc-8c66-152ee8f942ab)
+
 
 
 **CONCLUSION**
