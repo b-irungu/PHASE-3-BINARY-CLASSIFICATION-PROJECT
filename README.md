@@ -65,13 +65,13 @@ The recall score for the clssifier was 28% which also indicated that the clasifi
 
 **Decision Trees findings**
 
-The model reported a high accuracy of 0.929 and a decent mix of precision and recall(83.54% and 65.34% respectively. 
+The model reported a high accuracy of 0.929 and the highest recall score of 78%. with the highest recall and accuracy, the model was adopted and business recomdations and conclusions drawn from it.        
 
 ![decision tree confusion matrix](https://github.com/b-irungu/PHASE-3-BINARY-CLASSIFICATION-PROJECT/assets/122228492/04187f37-007c-4e93-b2c6-8ae053b72534)
 
 **Random Forest Findings**
 
-Random Forest was the best Model based on Recall Metric which was 75%. 7.4% of the predictions are False Negatives which means that the model will 7.4% of the time 
+Random Forest had a Recall Metric of 23%. 23% of the predictions are False Negatives which means that the model will 23% of the time 
 predict that a customer will not churn yet the customer churns.
 
 ![random forest confusion matrix](https://github.com/b-irungu/PHASE-3-BINARY-CLASSIFICATION-PROJECT/assets/122228492/78f5a5f7-48e7-406f-8aad-f89cfdb95663)
@@ -82,14 +82,19 @@ predict that a customer will not churn yet the customer churns.
 Based on the findings, the business conclusion can be drawn as follows:
 
 * Importance of Recall: In the context of predicting customer churn, the focus was placed on optimizing for Recall. By prioritizing Recall, the goal was to minimize the number of customers who are incorrectly classified as non-churners.
-* Best Model: Among the models explored, the Random Forest Classifier performed the best since was able to correctly identify 75% of the customers who were likely to churn.
-* Despite the success of the Random Forest Classifier, it still had a False Negatives rate of 7.4%. This means that approximately 7.4% of the time, the model predicted that a customer would not churn when they actually did churn. This level of False Negatives could have a significant impact on the business.
-* Predicting customer churn is an ongoing process, and it is important to continuously refine and improve the model. Regularly monitoring the model's performance, collecting new data, and incorporating feedback from business stakeholders can lead to better predictions and more accurate identification of customers who are at risk of churning.
+* Best Model: Among the models explored, the decision tree Classifier performed the best since was able to correctly identify 78% of the customers who were likely to churn.the model had an accuracy score of 92.8%
+* The factors that mostly influence churn of customer include total day charge, customr service calls and number oof voice mail messages.
+* Predicting customer churn is an ongoing process, and it is important to continuously refine and improve the model. Regularly monitoring the model's performance, collecting new data, and incorporating feedback from business stakeholders can lead to better predictions and more accurate identification of customers who are at risk of churning
+
 
 **BUSINESS RECOMMENDATION**
 
 Determine the unique needs of the following customers and meet them; 
-* Heavy daytime callers. Come up with tariff incentives for them 
-* Customers with international plans. Come up with unique retention plans 
-* Customers who frequently call customer service. Assist customers proactively to reduce the need to call.
+                  
+* The company should ensure continoous prediction of the factors influencing churn by contionously collecting new data and improving the model as prediction is an ongoing process.
+* To reduce customer churn, the company should review the charge rate for the day calls as total day charge is the most influencial predictor for churn in this model.
+* SyriaTel should improve the customer service calls through attentive listening to customers issues, feedbackd and complains and also through offering timely solutions for the same.
+* SyriaTel company should reach out to the customers with high numbers of voicemail messages to determine the cause for the voicemail messages surge and know how to adress the same.
+* SyriaTel should come up with a tailormade data and voice plan products for the international customers based on their unique needs.
+
 
