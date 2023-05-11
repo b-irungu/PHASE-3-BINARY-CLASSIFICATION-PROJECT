@@ -39,7 +39,7 @@ The data has various feaatures where `churn` was the target variable feature whi
 
 **METHOD**
 
-The project used the CRISP-DM data science process to analyse and create a model best for the churn analysis. All the data science steps are described in the CRISP-DM Report:(**insert link**). The projects used the following Binary classifiers
+The project used the CRISP-DM data science process to analyse and create a model best for the churn analysis. All the data science steps are described in the CRISP-DM Report:https://github.com/b-irungu/PHASE-3-BINARY-CLASSIFICATION-PROJECT/blob/main/FINAL%20CRISP-DM%20DATA%20REPORT%20-.pdf. The projects used the following Binary classifiers
 * KNN(K-Nearest Neighbours)
 * Logistic Regression
 * Decision Trees
